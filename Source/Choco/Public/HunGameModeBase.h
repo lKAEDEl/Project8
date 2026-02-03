@@ -1,0 +1,18 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/GameMode.h"
+#include "HunGameModeBase.generated.h"
+
+
+UCLASS()
+class CHOCO_API AHunGameModeBase : public AGameMode
+{
+	GENERATED_BODY()
+	
+
+public:
+	AHunGameModeBase();
+};
